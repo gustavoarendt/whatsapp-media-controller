@@ -1,7 +1,7 @@
 console.log("Extension working...");
 
 const interval = setInterval(() => {
-  const header = document.querySelector("._3Kxus");
+  const header = document.querySelector("#side").querySelector("header");
   if (header) {
     clearInterval(interval);
 
